@@ -33,6 +33,9 @@
     <ClCompile Include="サービス・入力.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="サービス・弾丸.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="エンジン.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="サービス・入力.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="サービス・弾丸.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
