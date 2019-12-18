@@ -127,9 +127,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="エンジン.cpp" />
+    <ClCompile Include="サービス・レンダリング.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="エンジン.h" />
+    <ClInclude Include="サービス・レンダリング.h" />
+    <ClInclude Include="共通.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
