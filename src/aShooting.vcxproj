@@ -127,10 +127,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="エンジン.cpp" />
+    <ClCompile Include="エンティティ.cpp" />
     <ClCompile Include="サービス・レンダリング.cpp" />
+    <ClCompile Include="具象エンティティ.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="エンジン.h" />
+    <ClInclude Include="エンティティ.h" />
     <ClInclude Include="サービス・レンダリング.h" />
     <ClInclude Include="共通.h" />
   </ItemGroup>

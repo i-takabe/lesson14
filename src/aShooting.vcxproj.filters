@@ -24,6 +24,12 @@
     <ClCompile Include="サービス・レンダリング.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="具象エンティティ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="エンティティ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="エンジン.h">
@@ -33,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="共通.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="エンティティ.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
