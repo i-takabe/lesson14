@@ -129,12 +129,14 @@
     <ClCompile Include="エンジン.cpp" />
     <ClCompile Include="エンティティ.cpp" />
     <ClCompile Include="サービス・レンダリング.cpp" />
+    <ClCompile Include="サービス・入力.cpp" />
     <ClCompile Include="具象エンティティ.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="エンジン.h" />
     <ClInclude Include="エンティティ.h" />
     <ClInclude Include="サービス・レンダリング.h" />
+    <ClInclude Include="サービス・入力.h" />
     <ClInclude Include="共通.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
