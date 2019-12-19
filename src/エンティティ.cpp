@@ -44,8 +44,7 @@ namespace エンジン
 
 		for(const auto &c : 対応表)
 		{
-			int diff = _tcscmp(c.文字列, 名前);
-			if(diff == 0) {return (*c.関数)(親);}
+			if(_tcscmp(c.文字列, 名前) == 0) {return (*c.関数)(親);}
 		}
 
 		return nullptr;
