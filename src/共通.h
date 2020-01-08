@@ -11,6 +11,7 @@ namespace エンジン
 	struct float2 {
 		float x;
 		float y;
+		float a = 0;
 
 		float2() { float2(0.0f, 0.0f); }
 		float2(float 引数x, float 引数y) { x = 引数x; y = 引数y; }
